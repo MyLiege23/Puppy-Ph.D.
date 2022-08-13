@@ -8,5 +8,28 @@ body {
 }
 
 #fbButton {
+
+}
+
+.dash {
+    text-decoration: none;
+}
+
+.header {
+    display: flex;
+    flex-flow: row wrap;
     
+}
+.headerRight {
+    display: flex;
+    flex-flow: column wrap;
+}
+.headerLeft {
+    display: flex;
+    flex-flow: column wrap;
+    align-items: flex-start;
+}
+img {
+    max-width: 200px;
+    max-height: 200px;
 }
