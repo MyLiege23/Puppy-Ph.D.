@@ -2,6 +2,11 @@ body {
     background-image: url(images/Background.jpg);
 }
 
-h1 {
+#introVid {
+    width: 560;
+    height: 315
+}
+
+#fbButton {
     
 }
