@@ -1,5 +1,78 @@
 body {
     background-image: url(images/Background.jpg);
+    background-size: contain;
+    font-family: sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#base {
+    width: fit-content;
+    
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.headerLeft {
+    display: flex;
+    flex-flow: column wrap;
+    align-items: flex-start;
+    justify-content: flex-start;
+    margin: 0px;
+}
+
+.title {
+    margin: 0px;
+    font-size: 64px;
+    color:rgb(0, 69, 69);
+}
+.sub.title {
+    font-size: 24px;
+}
+#gradHat {
+    width: 49px;
+    height: 32px;
+}
+#gradDog {
+    width:104px:
+    height: 100px; 
+}
+
+.headerRight {
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+}
+
+#logo {
+    width: 197px;
+    height: 160px;
+}
+
+#dashboard {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 10px;
+    height: 40px, auto;  
+    margin: 10px;
+}
+.dash {
+    align-self: center;
+    text-align: center;
+}
+.dash:hover {
+    /* background-color:rgb(0, 69, 69); */
+    border-bottom: 2px solid rgb(0, 69, 69);
+}
+
+.backboard {
+    background-color: rgb(54,153,236);
 }
 
 #introVid {
@@ -7,29 +80,10 @@ body {
     height: 315
 }
 
-#fbButton {
+#fbButton {n
 
 }
 
 .dash {
     text-decoration: none;
-}
-
-.header {
-    display: flex;
-    flex-flow: row wrap;
-    
-}
-.headerRight {
-    display: flex;
-    flex-flow: column wrap;
-}
-.headerLeft {
-    display: flex;
-    flex-flow: column wrap;
-    align-items: flex-start;
-}
-img {
-    max-width: 200px;
-    max-height: 200px;
 }
